@@ -7,7 +7,6 @@
   "scripts": {
     "server": "nodemon server.js",
     "start": "node server.js"
-    
   },
   "keywords": [
     "API",
@@ -16,6 +15,7 @@
   "author": "Deepak Doddera",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "mongoose": "^8.3.3"
   },
